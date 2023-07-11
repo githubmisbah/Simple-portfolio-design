@@ -1,0 +1,13 @@
+/* nav Related Style */
+nav{
+    display: flex;
+}
+
+/* Common Shared Style */
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans Chorasmian', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Mono', monospace;
+}
