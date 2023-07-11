@@ -1,6 +1,30 @@
 /* nav Related Style */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+    color: black;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(64, 52, 52);
+}
+
+.primary-color{
+    color: coral;
 }
 
 /* Common Shared Style */
@@ -11,3 +35,12 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto Mono', monospace;
 }
+
+ .button{
+    background-color: rgb(255, 153, 80);
+    border-radius: 5px;
+    border:none;
+    color: white;
+    padding: 18px 35px;
+    font-size: 25px;
+ }
